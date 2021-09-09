@@ -1,4 +1,4 @@
-# A New Chapter for Neural Machine Translation: Moving to Document-level Solutions
+# A New Chapter for Neural Machine Translation: Moving to Document-level Period
 
 ![](https://img.shields.io/badge/Status-building-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
@@ -49,5 +49,25 @@ future works
 * Mbart
 
 ## Dataset
+
+<div style="overflow-x: auto; overflow-y: auto; height: auto; width:100%;">
+<table style="width:100%" border="2">
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Intro</th>
+    <th>Links</th>
+    <th>Detail</th>
+    <th>Size & Stats</th>
+  </tr>
+</thead>
+<tbody >
+<tr>
+	<td><code> Restaurant dataset                         </td></code>
+		<td> Collected by a spoken dialogue system providing information about certain venues in San Francisco </td>
+		<td> Download： https://github.com/shawnwun/RNNLG   Paper： https://arxiv.org/pdf/1508.01745.pdf</td>
+		<td> Restaurant Information;Dialogue act types: 8  Slots: 12 Dialogue acts: 248 </td>
+		<td> Dialogues: around 1k  Utterances: around 5192   the ratio of training, validation, and testing set: 3:1:1     </td>
+</tr>
 
 ## Evaluation
