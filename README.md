@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Status-building-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
-This repository contains a list of papers, open-sourced codes, datasets and leaderboards in NLG field which is carefully and comprehensively organized. If you found any error, please don't hesitate to open an issue or pull request.
+This repository contains a list of papers, open-sourced codes, and datasets in Document-level NMT field which is carefully and comprehensively organized. If you found any error, please don't hesitate to open an issue or pull request.
 
 * Diederik P. Kingma, Jimmy Ba. 2015. [Adam: A Method for Stochastic Optimization](https://arxiv.org/pdf/1412.6980). In *Proceedings of ICLR 2015*. 
 
@@ -22,7 +22,7 @@ All these extra informations may be need during translation, and works in this s
 
 * intra-sentential (within the current sentence)
 * inter-sentential (across multiple sentences)
-* extra-linguistic (e.g. social, temporal, cultural) level
+* extra-linguistic (e.g. social, temporal, cultural)
 
 ### How can we model context information?
 
