@@ -4,7 +4,7 @@
 
 This repository contains a list of papers, open-sourced codes, and datasets in Document-level NMT field which is carefully and comprehensively organized. If you found any error, please don't hesitate to open an issue or pull request.
 
-![mind](dlt.png)
+![mind](image/dlt.png)
 
 ## Introduction
 
@@ -16,7 +16,7 @@ This repository contains a list of papers, open-sourced codes, and datasets in D
 
 Examples for disambiguation:
 
-![examples](ex.png)
+![examples](image/ex.png)
 ### What is _context_ ?
 
 All these extra informations may be need during translation, and works in this section mainly focus on how to model these features in machine translations systems.
