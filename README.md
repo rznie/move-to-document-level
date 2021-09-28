@@ -28,7 +28,7 @@ All these extra informations may be need during translation, and works in this s
 ### How can we model context information?
 
 * Encoder sides
-  * Chih-Cheng Hung,Jiman Hong, Alessio Bechini, Eunjee Song and Ritam Mallick [Context- and sequence-aware convolutional recurrent encoder for neural machine translation](https://dl.acm.org/doi/10.1145/3412841.3442099)
+  * Chih-Cheng Hung, Jiman Hong, Alessio Bechini, Eunjee Song and Ritam Mallick [Context- and sequence-aware convolutional recurrent encoder for neural machine translation](https://dl.acm.org/doi/10.1145/3412841.3442099)
   * Dual encoders
     * Jiacheng Zhang, Huanbo Luan, Maosong Sun, Feifei Zhai, Jingfang Xu [Improving the Transformer Translation Model with Document-Level Context](https://dx.doi.org/10.18653/v1/d18-1049)
   * Single Encoder
@@ -41,19 +41,19 @@ All these extra informations may be need during translation, and works in this s
 * Extend Memory
   * Zhaopeng Tu, Yang Liu, Shuming Shi, Tong Zhang [Learning to Remember Translation History with a Continuous Cache](https://arxiv.org/abs/1711.09367)
 * Embeddings
-  * Dynamic Contextualized Word Embeddings
-* Graph
-  * Mingzhou XuLiangyou LiDerek F WongQun Liu and Lidia S Chao [Document Graph for Neural Machine Translation](https://arxiv.org/abs/2012.03477)
-* Others
+  * Valentin Hofmann, Janet B Pierrehumbert and Hinrich Schütze [Dynamic Contextualized Word Embeddings](https://arxiv.org/abs/2010.12684)
+* With Graph Network
+  * Mingzhou Xu, Liangyou Li, Derek F Wong, Qun Liu and Lidia S Chao [Document Graph for Neural Machine Translation](https://arxiv.org/abs/2012.03477)
+* with Pre-trained model
   * Domenic Donato, Lei Yu and Chris Dyer [Diverse Pretrained Context Encodings Improve Document Translation](https://arxiv.org/abs/2106.03717)
+  * Hassan S Shavarani, Anoop Sarkar [Better Neural Machine Translation by Extracting Linguistic Information from BERT](https://arxiv.org/abs/2104.02831)
+  * Rongxiang Weng, Heng Yu, Shujian Huang, Shanbo Cheng, Weihua Luo [Acquiring Knowledge from Pre-trained Model to Neural Machine Translation](https://arxiv.org/abs/1912.01774)
+* Others
   * Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling and Lingpeng Kong [Better Document-Level Machine Translation with Bayes' Rule](https://arxiv.org/abs/1910.00553)
   * Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas and James Henderson [Document-Level Neural Machine Translation with Hierarchical Attention Networks](https://dx.doi.org/10.18653/v1/d18-1325)
   * Pei Zhang, Boxing Chen, Niyu Ge and Kai Fan [Long-Short Term Masking Transformer: A Simple but Effective Baseline for Document-level Neural Machine Translation](https://arxiv.org/abs/2009.09127)
   * Elena Voita, Rico Sennrich and Ivan Titov [Context-Aware Monolingual Repair for Neural Machine Translation](https://www.aclweb.org/anthology/D19-1081)
-  * Hassan S Shavarani, Anoop Sarkar [Better Neural Machine Translation by Extracting Linguistic Information from BERT](https://arxiv.org/abs/2104.02831)
-  * Rongxiang Weng, Heng Yu, Shujian Huang, Shanbo Cheng, Weihua Luo [Acquiring Knowledge from Pre-trained Model to Neural Machine Translation](https://arxiv.org/abs/1912.01774)
-  * Xintong LiLemao LiuRui WangGuoping HuangMax Meng [Regularized Context Gates on Transformer for Machine Translation](https://arxiv.org/abs/1908.11020)
-  * Inigo Jauregi UnanueNazanin EsmailiGholamreza HaffariMassimo Piccardi [Leveraging Discourse Rewards for Document-Level Neural Machine Translation](https://arxiv.org/abs/2010.03732)
+  * Inigo Jauregi Unanue, Nazanin Esmaili, Gholamreza Haffari and Massimo Piccardi [Leveraging Discourse Rewards for Document-Level Neural Machine Translation](https://arxiv.org/abs/2010.03732)
 
 ### Are these models actually using context?
 
@@ -94,15 +94,14 @@ All these extra informations may be need during translation, and works in this s
 
 ## Evaluation
 
-* [Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics](https://dx.doi.org/10.18653/v1/2020.acl-main.448)
+* Nitika Mathur, Timothy Baldwin and Trevor Cohn [Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics](https://dx.doi.org/10.18653/v1/2020.acl-main.448)
 * Lesly Miculicich Werlen, Andrei Popescu-Belis [Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)](https://aclanthology.org/W17-4802)
 * Elena Voita, Rico Sennrich and Ivan Titov [When a Good Translation is Wrong in Context: Context-Aware Machine Translation Improves on Deixis, Ellipsis, and Lexical Cohesion](https://www.aclweb.org/anthology/P19-1116)
 * B. T. M. Wong, C. F. K. Pun, C. Kit, J. J. Webster [Lexical cohesion for evaluation of machine translation at document level](https://ieeexplore.ieee.org/document/6138201/)
 * Prathyusha Jwalapuram, Shafiq Joty, Irina Temnikova and Preslav Nakov [Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite](https://aclanthology.org/D19-1294)
 * Yuchen JiangShuming MaDongdong ZhangJian YangHaoyang Huang [BlonD: An Automatic Evaluation Metric for Document-level MachineTranslation](https://arxiv.org/abs/2103.11878)
 
-
-## Overall Survey
+## Surveys & Comparisons
 
 * Sameen Maruf, Fahimeh Saleh and Gholamreza Haffari [A Survey on Document-level Neural Machine Translation: Methods and Evaluation](https://dl.acm.org/doi/10.1145/3441691)
 * Zhiyi Ma, Sergey Edunov and Michael Auli [A Comparison of Approaches to Document-level Machine Translation](https://arxiv.org/abs/2101.11040)
